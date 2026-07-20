@@ -25,17 +25,6 @@ This repository contains my daily Data Structures and Algorithms practice.
 - Trees
 - Graphs
 - Dynamic Programming
-
-## Progress
-
-| Topic | Problems |
-|-------|----------|
-| Arrays | ✅ |
-| Strings | ⏳ |
-| Hashing | ⏳ |
-| Linked List | ⏳ |
-| Trees | ⏳ |
-| Graphs
 | Dynamic Programming
 
 ---
