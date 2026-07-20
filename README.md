@@ -25,8 +25,3 @@ This repository contains my daily Data Structures and Algorithms practice.
 - Trees
 - Graphs
 - Dynamic Programming
-| Dynamic Programming
-
----
-
-⭐ Daily consistency is more important than solving many problems at once.
