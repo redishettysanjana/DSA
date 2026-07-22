@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 class Solution {
     public int[] separateDigits(int[] nums) {
         ArrayList<Integer> answer = new ArrayList<>();
