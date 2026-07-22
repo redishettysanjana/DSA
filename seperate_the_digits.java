@@ -1,6 +1,7 @@
 class Solution {
     public int[] separateDigits(int[] nums) {
         ArrayList<Integer> answer = new ArrayList<>();
+        
         for (int num : nums) {
             String a = String.valueOf(num);
             for (char b : a.toCharArray()) {
