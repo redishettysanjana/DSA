@@ -8,13 +8,12 @@ class Solution {
 
             if (prices[i] < minPrice) {
                 minPrice = prices[i];
-            } else {
+            }
 
-                int profit = prices[i] - minPrice;
+            int profit = prices[i] - minPrice;
 
-                if (profit > maxProfit) {
-                    maxProfit = profit;
-                }
+            if (profit > maxProfit) {
+                maxProfit = profit;
             }
         }
 
