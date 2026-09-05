@@ -1,38 +1,17 @@
-import java.util.Stack;
+import java.util.HashSet;
 
 class Solution {
-    public boolean isValid(String s) {
+    public boolean containsDuplicate(int[] nums) {
+        
+        HashSet<Integer> set = new HashSet<>();
 
-        Stack<Character> stack = new Stack<>();
-
-        for (int i = 0; i < s.length(); i++) {
-
-            char ch = s.charAt(i);
-
-            if (ch == '(' || ch == '{' || ch == '[') {
-                stack.push(ch);
-            } 
-            else {
-                if (stack.isEmpty()) {
-                    return false;
-                }
-
-                char top = stack.pop();
-
-                if (ch == ')' && top != '(') {
-                    return false;
-                }
-
-                if (ch == '}' && top != '{') {
-                    return false;
-                }
-
-                if (ch == ']' && top != '[') {
-                    return false;
-                }
+        for ( int i = 0; i <nums.length; i ++) {
+            
+            if ( set.contains(nums[i])) {
+                return true;
             }
+            set.add(nums[i]);
         }
-
-        return stack.isEmpty();
+        return false;
     }
 }
