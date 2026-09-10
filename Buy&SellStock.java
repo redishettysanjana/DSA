@@ -16,7 +16,6 @@ class Solution {
                 maxProfit = profit;
             }
         }
-
         return maxProfit;
     }
 }
