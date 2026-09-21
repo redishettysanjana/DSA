@@ -20,16 +20,13 @@ class Solution {
                 sum = sum + (b.charAt(j) - '0');
                 j--;
             }
-
             result.append(sum % 2);
-
             carry = sum / 2;
         }
 
         if (carry > 0) {
             result.append(carry);
         }
-
         return result.reverse().toString();
     }
 }
