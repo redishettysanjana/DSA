@@ -15,7 +15,6 @@ class Solution {
 
             columnNumber = columnNumber / 26;
         }
-
         return result.reverse().toString();
     }
 }
