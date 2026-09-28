@@ -11,7 +11,7 @@ class Solution {
             }
 
         }
-        // if the digit is 9,99,999......create new array
+        
         int[] result = new int[digits.length + 1];
         result[0] = 1;
 
