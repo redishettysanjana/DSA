@@ -14,3 +14,22 @@ class isSubseqequence {
         return i == s.length();
     }
 }
+
+
+
+
+
+
+
+
+
+
+shfiQAEgv
+int a(){
+    djw;
+    j++;
+    i++;
+    charAt() {
+        
+    }
+}
